@@ -1,0 +1,26 @@
+{
+    "name": "202210-w1ch5-mireya-chaparro",
+    "version": "1.0.0",
+    "description": "Este challenge en parejas consiste en maquetar en HTML y CSS (nada de JS) la web de Travelulu (sólo la Subpage, no la Homepage), a partir del figma proporcionado: versión mobile y versión desktop.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "sass": "sass sass:css --watch",
+        "prepare": "husky install"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mireyachaparro/202210-W1CH5-mireya-chaparro.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/mireyachaparro/202210-W1CH5-mireya-chaparro/issues"
+    },
+    "homepage": "https://github.com/mireyachaparro/202210-W1CH5-mireya-chaparro#readme",
+    "devDependencies": {
+        "husky": "^8.0.0",
+        "sass": "^1.55.0"
+    }
+}
