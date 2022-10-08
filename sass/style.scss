@@ -1,5 +1,5 @@
 @use "variables";
-@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&family=Montserrat:wght@100;300&family=Nunito:wght@300&family=Poppins:wght@300;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&family=Montserrat:wght@100;300&family=Nunito:wght@300&family=Poppins:wght@100;300;500;700;900&display=swap");
 
 *,
 *::after,
@@ -21,13 +21,15 @@ body {
     max-width: 1000px;
 }
 
-header {
+.header {
     .header__h1 {
-        color: variables.$primary-color;
-        font-weight: 700;
+        visibility: hidden;
+        font-size: 0;
     }
     border-bottom: 1px solid variables.$header-color;
     padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .main__sectionfind {
@@ -55,6 +57,7 @@ header {
         border-radius: 10px;
         background-color: variables.$background-form-find;
         color: variables.$second-black;
+        font-size: 1rem;
     }
     .main__buttonfind {
         background-color: variables.$form-botton-color;
@@ -77,8 +80,37 @@ a:active {
     border-bottom: 1px solid variables.$linea-color;
     .divsearch {
         background-color: variables.$container-color;
-        color: variables.$general-light-color;
         border-radius: 20px;
         padding: 2rem;
+        padding-top: 1rem;
+    }
+}
+.main__h2search {
+    color: variables.$header-color;
+    font-weight: 500;
+}
+.main__psearch {
+    color: white;
+    font-size: 100;
+}
+.main__formsearch {
+    display: flex;
+    flex-direction: column;
+    .main__selectsearch {
+        padding: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 10px;
+        background-color: variables.$background-form-find;
+        color: variables.$second-black;
+    }
+    .main__selectsearch {
+        font-size: 1rem;
+    }
+    .main__buttonsearch {
+        background-color: variables.$form-botton-color;
+        padding: 1rem;
+        text-align: center;
+        border-radius: 100px;
+        color: variables.$general-light-color;
     }
 }
