@@ -1,7 +1,84 @@
-.main__buttonfind {
-  width: 60px;
-  height: 20px;
-  color: red;
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&family=Montserrat:wght@100;300&family=Nunito:wght@300&family=Poppins:wght@300;500;700;900&display=swap");
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100vh;
+  font-family: poppins;
+}
+
+body {
+  margin: 0 auto; /*se centra si sobrepasa el ancho minimo*/
+  display: flex;
+  flex-direction: column;
+  min-width: 390px; /*para movil*/
+  max-width: 1000px;
+}
+
+header {
+  border-bottom: 1px solid #bca4ff;
+  padding: 1rem;
+}
+header .header__h1 {
+  color: #5f2eea;
+  font-weight: 700;
+}
+
+.main__sectionfind {
+  padding: 1rem;
+  padding-block: 2rem;
+  border-bottom: 1px solid #d9dbe9;
+}
+
+.main__h2find {
+  color: #000000;
+  font-weight: 700;
+}
+
+.main__divfind {
+  display: flex;
+  flex-direction: column;
+}
+
+.main__formfind {
+  display: flex;
+  flex-direction: column;
+}
+.main__formfind .main__selectfind {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  background-color: #f7f7fc;
+  color: #14142b;
+}
+.main__formfind .main__buttonfind {
+  background-color: #ed2e7e;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 100px;
+  color: #ffffff;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+.main__sectionsearch {
+  padding: 1rem;
+  padding-block: 2rem;
+  border-bottom: 1px solid #d9dbe9;
+}
+.main__sectionsearch .divsearch {
+  background-color: #2a00a2;
+  color: #ffffff;
+  border-radius: 20px;
+  padding: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
