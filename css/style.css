@@ -15,7 +15,7 @@ body {
   margin: 0 auto; /*se centra si sobrepasa el ancho minimo*/
   display: flex;
   flex-direction: column;
-  min-width: 390px; /*para movil*/
+  min-width: 481px; /*para movil*/ /**/
   max-width: 1000px;
 }
 
