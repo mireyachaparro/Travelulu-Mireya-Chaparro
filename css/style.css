@@ -223,6 +223,8 @@ a:active {
 }
 .footer .footer__mail {
   color: #5f2eea;
+}
+
 .main__sectionhotel {
   padding-left: 1rem;
 }
@@ -294,5 +296,44 @@ a:active {
 .main__sectionhotel .main__circlerow {
   padding-top: 3rem;
 }
+
+/* .header__menu {
+    background-color: variables.$container-color;
+    padding-top: 2rem;
+    padding-right: 6rem;
+    padding-bottom: 10rem;
+    font-size: 0.8rem;
+    .header__divmenu {
+        padding-left: 1.5rem;
+        padding-bottom: 1.5rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .header__menulogo {
+        width: 5.5rem;
+    }
+    .header__closeicon {
+        width: 0.7rem;
+    }
+    .header__listmenu {
+        padding-left: 3rem;
+    }
+    .header__sectionmenu {
+        list-style: none;
+        color: variables.$general-light-color;
+        padding-bottom: 1.2rem;
+        font-weight: 700;
+    }
+    .header__subsectionmenu {
+        list-style: none;
+        color: variables.$general-light-color;
+        padding-bottom: 1rem;
+        font-weight: 500;
+        font-size: 0.7rem;
+    }
+    .header__row {
+        height: 0.5rem;
+    }
+} */
 
 /*# sourceMappingURL=style.css.map */
