@@ -21,7 +21,7 @@ body {
 
 .header {
   border-bottom: 1px solid #bca4ff;
-  padding: 1rem;
+  padding: 0 2.5rem;
   display: flex;
   justify-content: space-between;
   position: sticky;
@@ -34,8 +34,7 @@ body {
 }
 
 .main__sectionfind {
-  padding: 1rem;
-  padding-block: 2rem;
+  padding: 2rem;
   border-bottom: 1px solid #d9dbe9;
 }
 
@@ -77,9 +76,10 @@ a:active {
 }
 
 .main__sectionsearch {
-  padding: 1rem;
+  padding: 2rem;
   padding-block: 2rem;
   border-bottom: 1px solid #d9dbe9;
+  border: 0;
 }
 .main__sectionsearch .divsearch {
   background-color: #2a00a2;
@@ -88,18 +88,14 @@ a:active {
   padding-top: 1rem;
 }
 
-.main__h2search {
-  color: #bca4ff;
-  font-weight: 500;
-}
-
 .main__psearch {
   color: white;
   font-size: 100;
 }
 
-.main__sectionsearch {
-  border: 0;
+.main__h2search {
+  color: #bca4ff;
+  font-weight: 500;
 }
 
 .main__formsearch {
@@ -107,31 +103,32 @@ a:active {
   flex-direction: column;
 }
 .main__formsearch .main__selectsearch {
+  border: 0;
   padding: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
   border-radius: 10px;
   background-color: #f7f7fc;
   color: #14142b;
   font-family: poppins;
-}
-.main__formsearch .main__selectsearch {
   font-size: 1rem;
 }
 .main__formsearch .main__buttonfind {
   background-color: #ed2e7e;
   padding: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
   text-align: center;
   border-radius: 100px;
   color: #ffffff;
 }
 
 .main__sectionlast {
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .main__divgreen {
   background-color: #f2fffb;
-  border: 1px solid #00ba88;
+  border: 2px solid #00ba88;
   border-radius: 20px;
   padding: 1rem;
   display: grid;
@@ -140,16 +137,21 @@ a:active {
   margin-bottom: 1.5rem;
 }
 .main__divgreen .main__pgreen {
+  font-size: 0.9rem;
+  color: #00ba88;
   margin: 0;
   padding: 0 10px;
 }
 .main__divgreen .main__cross {
   align-self: center;
 }
+.main__divgreen .main__like {
+  padding-top: 0.4rem;
+}
 
 .main__divred {
   background-color: #fff3f8;
-  border: 1px solid #ed2e7e;
+  border: 2px solid #ed2e7e;
   border-radius: 20px;
   padding: 1rem;
   display: grid;
@@ -158,11 +160,16 @@ a:active {
   margin-bottom: 1.5rem;
 }
 .main__divred .main__pred {
+  font-size: 0.83rem;
+  color: #c30052;
   margin: 0;
   padding: 0 10px;
 }
 .main__divred .main__cross {
   align-self: center;
+}
+.main__divred .main__alert-info {
+  padding-top: 0.4rem;
 }
 
 .main__imgbackground {
@@ -182,8 +189,9 @@ a:active {
   border-radius: 20px;
 }
 .main__divneed .main__pneed {
+  line-height: 3.1rem;
   color: #ffffff;
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 700;
   margin: 0;
 }
@@ -226,12 +234,12 @@ a:active {
 }
 
 .main__sectionhotel {
-  padding-left: 1rem;
+  padding-left: 2rem;
 }
 .main__sectionhotel .main__divhotel {
-  margin-top: 2.5rem;
+  margin-top: 2rem;
   display: flex;
-  width: 80%;
+  width: 100%;
   overflow-x: scroll;
 }
 .main__sectionhotel .main__imghotel {
@@ -240,6 +248,7 @@ a:active {
 }
 .main__sectionhotel .main__h2hotel {
   font-weight: 500;
+  font-size: 1.65rem;
 }
 .main__sectionhotel .main__stars {
   padding-top: 1.2rem;
@@ -247,7 +256,21 @@ a:active {
 .main__sectionhotel .main__imgstars {
   padding-left: 0.15rem;
 }
+.main__sectionhotel .main__h3hotel {
+  color: #5f2eea;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin: 0px;
+  margin-top: 0.8rem;
+}
+.main__sectionhotel .main__h3hotel {
+  color: #5f2eea;
+  font-weight: 500;
+  margin: 0px;
+  margin-top: 0.8rem;
+}
 .main__sectionhotel .main__h4hotel {
+  font-size: 1.3rem;
   color: #5f2eea;
   font-weight: 500;
   margin: 0px;
@@ -260,22 +283,28 @@ a:active {
 .main__sectionhotel .main__photel {
   color: #4e4b66;
   font-weight: 300;
-  font-size: 0.95rem;
+  font-size: 1.15rem;
   margin: 0px;
-  margin-bottom: 1.5rem;
 }
 .main__sectionhotel .main__buttonhotel {
-  padding-inline: 1rem;
+  padding-inline: 1.5rem;
   padding-block: 0.5rem;
   border: 1.5px solid #d9dbe9;
   border-radius: 100px;
   color: #5f2eea;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
+}
+.main__sectionhotel .main__p2hotel {
+  color: #4e4b66;
+  font-weight: 300;
+  font-size: 1.15rem;
+  margin: 0px;
+  padding-bottom: 1.5rem;
 }
 .main__sectionhotel .main__bigline {
   border-bottom: 0.5px solid #d9dbe9;
   padding-bottom: 0.5rem;
-  margin-top: 2.5rem;
+  margin-top: 2rem;
 }
 .main__sectionhotel .main__lines {
   display: flex;
@@ -283,19 +312,12 @@ a:active {
   align-items: center;
 }
 .main__sectionhotel .main__smallline {
-  width: 1rem;
+  width: 9.5rem;
   border-bottom: 1.5px solid #d9dbe9;
-  padding-bottom: 4rem;
+  padding-bottom: 3rem;
 }
 .main__sectionhotel .main__circlerow {
   padding-top: 3rem;
-}
-
-.main__h3hotel {
-  color: #5f2eea;
-  font-weight: 500;
-  margin: 0px;
-  margin-top: 0.8rem;
 }
 
 /*prueba*/
