@@ -247,6 +247,12 @@ a:active {
 .main__sectionhotel .main__imgstars {
   padding-left: 0.15rem;
 }
+.main__sectionhotel .main__h3hotel {
+  color: #5f2eea;
+  font-weight: 500;
+  margin: 0px;
+  margin-top: 0.8rem;
+}
 .main__sectionhotel .main__h4hotel {
   color: #5f2eea;
   font-weight: 500;
@@ -283,19 +289,12 @@ a:active {
   align-items: center;
 }
 .main__sectionhotel .main__smallline {
-  width: rem;
+  width: 1rem;
   border-bottom: 1.5px solid #d9dbe9;
   padding-bottom: 4rem;
 }
 .main__sectionhotel .main__circlerow {
   padding-top: 3rem;
-}
-
-.main__h3hotel {
-  color: #5f2eea;
-  font-weight: 500;
-  margin: 0px;
-  margin-top: 0.8rem;
 }
 
 /* .header__menu {
@@ -304,27 +303,33 @@ a:active {
     padding-right: 6rem;
     padding-bottom: 10rem;
     font-size: 0.8rem;
+
     .header__divmenu {
         padding-left: 1.5rem;
         padding-bottom: 1.5rem;
         display: flex;
         justify-content: space-between;
     }
+
     .header__menulogo {
         width: 5.5rem;
     }
+
     .header__closeicon {
         width: 0.7rem;
     }
+
     .header__listmenu {
         padding-left: 3rem;
     }
+
     .header__sectionmenu {
         list-style: none;
         color: variables.$general-light-color;
         padding-bottom: 1.2rem;
         font-weight: 700;
     }
+
     .header__subsectionmenu {
         list-style: none;
         color: variables.$general-light-color;
@@ -332,6 +337,7 @@ a:active {
         font-weight: 500;
         font-size: 0.7rem;
     }
+
     .header__row {
         height: 0.5rem;
     }
