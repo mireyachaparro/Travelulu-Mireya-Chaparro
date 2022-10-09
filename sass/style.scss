@@ -376,6 +376,15 @@ a:active {
         height: 85%;
         margin-left: 1rem;
     }
+    .main__formsearch {
+        .main__buttonfind {
+            width: 100%;
+            margin-inline: 0;
+        }
+        .main__selectsearch {
+            width: 100%;
+        }
+    }
     .main__sectionlast {
         padding-inline: 10%;
     }
@@ -405,6 +414,12 @@ a:active {
             margin-top: 2rem;
             width: 40%;
         }
+    }
+    .main__divordenador {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        padding-inline-start: 6%;
+        padding-inline-end: 8%;
     }
 }
 
