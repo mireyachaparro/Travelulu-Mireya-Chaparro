@@ -247,12 +247,6 @@ a:active {
 .main__sectionhotel .main__imgstars {
   padding-left: 0.15rem;
 }
-.main__sectionhotel .main__h3hotel {
-  color: #5f2eea;
-  font-weight: 500;
-  margin: 0px;
-  margin-top: 0.8rem;
-}
 .main__sectionhotel .main__h4hotel {
   color: #5f2eea;
   font-weight: 500;
@@ -295,6 +289,13 @@ a:active {
 }
 .main__sectionhotel .main__circlerow {
   padding-top: 3rem;
+}
+
+.main__h3hotel {
+  color: #5f2eea;
+  font-weight: 500;
+  margin: 0px;
+  margin-top: 0.8rem;
 }
 
 /* .header__menu {

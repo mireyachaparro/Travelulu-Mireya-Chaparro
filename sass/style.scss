@@ -247,12 +247,6 @@ a:active {
         padding-left: 0.15rem;
     }
 
-    .main__h3hotel {
-        color: variables.$primary-color;
-        font-weight: 500;
-        margin: 0px;
-        margin-top: 0.8rem;
-    }
     .main__h4hotel {
         color: variables.$primary-color;
         font-weight: 500;
@@ -300,6 +294,13 @@ a:active {
     .main__circlerow {
         padding-top: 3rem;
     }
+}
+
+.main__h3hotel {
+    color: variables.$primary-color;
+    font-weight: 500;
+    margin: 0px;
+    margin-top: 0.8rem;
 }
 
 /* .header__menu {
