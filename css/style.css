@@ -19,9 +19,11 @@ body {
 }
 
 .header {
-  border-bottom: 1px solid #bca4ff;
-  padding: 0 2.5rem;
-  padding-block: 2rem;
+  border-bottom: 0.5px solid #bca4ff;
+  padding-left: 3rem;
+  padding-right: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   display: flex;
   justify-content: space-between;
   position: sticky;
@@ -90,7 +92,10 @@ a:active {
 
 .main__psearch {
   color: white;
-  font-size: 100;
+  font-weight: 300;
+  margin: 0;
+  margin-top: 1rem;
+  margin-bottom: 0.2rem;
 }
 
 .main__h2search {
@@ -123,7 +128,8 @@ a:active {
 }
 
 .main__sectionlast {
-  padding: 2rem;
+  padding-bottom: 2rem;
+  padding-inline: 2rem;
 }
 
 .main__divgreen {
@@ -160,7 +166,7 @@ a:active {
   margin-bottom: 1.5rem;
 }
 .main__divred .main__pred {
-  font-size: 0.83rem;
+  font-size: 0.9rem;
   color: #c30052;
   margin: 0;
   padding: 0 10px;
@@ -196,16 +202,16 @@ a:active {
   margin: 0;
 }
 .main__divneed .main__buttonneed {
-  border: 1px solid #ffffff;
+  border: 1.5px solid #ffffff;
   border-radius: 100px;
   color: #ffffff;
-  width: 100%;
+  width: 90%;
   padding: 1rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .footer {
-  padding-top: 2rem;
+  padding-top: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -213,23 +219,29 @@ a:active {
   padding-bottom: 4rem;
 }
 .footer .footer__img {
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
 }
 .footer .footer__pdark {
+  font-size: 1rem;
   text-align: center;
   color: #4e4b66;
   padding-inline: 2rem;
+  font-weight: 300;
 }
 .footer .footer__plight {
   text-align: center;
   color: #6e7191;
-  padding-inline: 3rem;
+  padding-inline: 5rem;
+  font-weight: 300;
 }
 .footer .footer__h2 {
   font-size: 1.3rem;
-  padding-top: 1rem;
+  padding-top: 1.5rem;
+  font-weight: 500;
 }
 .footer .footer__mail {
+  font-weight: 300;
+  padding-top: 0.5rem;
   color: #5f2eea;
 }
 
@@ -302,22 +314,25 @@ a:active {
   padding-bottom: 1.5rem;
 }
 .main__sectionhotel .main__bigline {
-  border-bottom: 0.5px solid #d9dbe9;
+  border-bottom: 1px solid #d9dbe9;
   padding-bottom: 0.5rem;
   margin-top: 2rem;
+  margin-right: 2rem;
 }
 .main__sectionhotel .main__lines {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-right: 2rem;
 }
 .main__sectionhotel .main__smallline {
   width: 9.5rem;
-  border-bottom: 1.5px solid #d9dbe9;
-  padding-bottom: 3rem;
+  border-bottom: 1px solid #d9dbe9;
+  padding-bottom: 0.5rem;
 }
 .main__sectionhotel .main__circlerow {
   padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 @media screen and (min-width: 1440px) {
