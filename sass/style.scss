@@ -219,6 +219,8 @@ a:active {
     }
     .footer__mail {
         color: variables.$primary-color;
+    }
+}
 
 .main__sectionhotel {
     padding-left: 1rem;
@@ -317,6 +319,17 @@ a:active {
     .header__menulogo {
         width: 5.5rem;
     }
+    .header__closeicon {
+        width: 0.7rem;
+    }
+    .header__listmenu {
+        padding-left: 3rem;
+    }
+
+
+    .header__menulogo {
+        width: 5.5rem;
+    }
 
     .header__closeicon {
         width: 0.7rem;
@@ -325,6 +338,7 @@ a:active {
     .header__listmenu {
         padding-left: 3rem;
     }
+
 
     .header__sectionmenu {
         list-style: none;
