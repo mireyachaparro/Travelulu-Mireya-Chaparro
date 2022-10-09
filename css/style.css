@@ -22,6 +22,7 @@ body {
 .header {
   border-bottom: 1px solid #bca4ff;
   padding: 0 2.5rem;
+  padding-block: 2rem;
   display: flex;
   justify-content: space-between;
   position: sticky;
