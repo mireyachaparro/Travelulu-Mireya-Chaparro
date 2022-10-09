@@ -166,6 +166,7 @@ a:active {
     width: 100%;
     aspect-ratio: 1;
 }
+
 .main__divneed {
     background-image: url(../assets/background.png);
     aspect-ratio: 1;
@@ -291,7 +292,7 @@ a:active {
     }
 
     .main__smallline {
-        width: rem;
+        width: 1rem;
         border-bottom: 1.5px solid variables.$linea-color;
         padding-bottom: 4rem;
     }
@@ -300,18 +301,21 @@ a:active {
         padding-top: 3rem;
     }
 }
+
 /* .header__menu {
     background-color: variables.$container-color;
     padding-top: 2rem;
     padding-right: 6rem;
     padding-bottom: 10rem;
     font-size: 0.8rem;
+
     .header__divmenu {
         padding-left: 1.5rem;
         padding-bottom: 1.5rem;
         display: flex;
         justify-content: space-between;
     }
+
     .header__menulogo {
         width: 5.5rem;
     }
@@ -321,12 +325,28 @@ a:active {
     .header__listmenu {
         padding-left: 3rem;
     }
+
+
+    .header__menulogo {
+        width: 5.5rem;
+    }
+
+    .header__closeicon {
+        width: 0.7rem;
+    }
+
+    .header__listmenu {
+        padding-left: 3rem;
+    }
+
+
     .header__sectionmenu {
         list-style: none;
         color: variables.$general-light-color;
         padding-bottom: 1.2rem;
         font-weight: 700;
     }
+
     .header__subsectionmenu {
         list-style: none;
         color: variables.$general-light-color;
@@ -334,6 +354,7 @@ a:active {
         font-weight: 500;
         font-size: 0.7rem;
     }
+
     .header__row {
         height: 0.5rem;
     }
