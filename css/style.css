@@ -223,6 +223,7 @@ a:active {
 }
 .footer .footer__mail {
   color: #5f2eea;
+}
 
 .main__sectionhotel {
   padding-left: 1rem;
@@ -245,12 +246,6 @@ a:active {
 }
 .main__sectionhotel .main__imgstars {
   padding-left: 0.15rem;
-}
-.main__sectionhotel .main__h3hotel {
-  color: #5f2eea;
-  font-weight: 500;
-  margin: 0px;
-  margin-top: 0.8rem;
 }
 .main__sectionhotel .main__h4hotel {
   color: #5f2eea;
@@ -296,13 +291,22 @@ a:active {
   padding-top: 3rem;
 }
 
+.main__h3hotel {
+  color: #5f2eea;
+  font-weight: 500;
+  margin: 0px;
+  margin-top: 0.8rem;
+}
+
+/*prueba*/
+/*prueba*/
 /* .header__menu {
     background-color: variables.$container-color;
     padding-top: 2rem;
     padding-right: 6rem;
     padding-bottom: 10rem;
-    font-size: 0.8rem
-    
+    font-size: 0.8rem;
+
     .header__divmenu {
         padding-left: 1.5rem;
         padding-bottom: 1.5rem;
@@ -313,17 +317,6 @@ a:active {
     .header__menulogo {
         width: 5.5rem;
     }
-    .header__closeicon {
-        width: 0.7rem;
-    }
-    .header__listmenu {
-        padding-left: 3rem;
-    }
-
-
-    .header__menulogo {
-        width: 5.5rem;
-    }
 
     .header__closeicon {
         width: 0.7rem;
@@ -332,7 +325,6 @@ a:active {
     .header__listmenu {
         padding-left: 3rem;
     }
-
 
     .header__sectionmenu {
         list-style: none;
@@ -354,3 +346,4 @@ a:active {
     }
 } */
 
+/*# sourceMappingURL=style.css.map */

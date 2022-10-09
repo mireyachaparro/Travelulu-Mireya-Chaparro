@@ -247,12 +247,6 @@ a:active {
         padding-left: 0.15rem;
     }
 
-    .main__h3hotel {
-        color: variables.$primary-color;
-        font-weight: 500;
-        margin: 0px;
-        margin-top: 0.8rem;
-    }
     .main__h4hotel {
         color: variables.$primary-color;
         font-weight: 500;
@@ -302,6 +296,15 @@ a:active {
     }
 }
 
+.main__h3hotel {
+    color: variables.$primary-color;
+    font-weight: 500;
+    margin: 0px;
+    margin-top: 0.8rem;
+}
+/*prueba*/
+/*prueba*/
+
 /* .header__menu {
     background-color: variables.$container-color;
     padding-top: 2rem;
@@ -319,17 +322,6 @@ a:active {
     .header__menulogo {
         width: 5.5rem;
     }
-    .header__closeicon {
-        width: 0.7rem;
-    }
-    .header__listmenu {
-        padding-left: 3rem;
-    }
-
-
-    .header__menulogo {
-        width: 5.5rem;
-    }
 
     .header__closeicon {
         width: 0.7rem;
@@ -338,7 +330,6 @@ a:active {
     .header__listmenu {
         padding-left: 3rem;
     }
-
 
     .header__sectionmenu {
         list-style: none;
