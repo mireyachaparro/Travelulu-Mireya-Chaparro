@@ -18,7 +18,6 @@ body {
     display: flex;
     flex-direction: column;
     min-width: 481px; /*para movil*/ /**/
-    max-width: 1000px;
 }
 
 .header {
@@ -332,6 +331,68 @@ a:active {
         padding-top: 3rem;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .header {
+        padding-inline-start: 10%;
+        padding-inline-end: 3%;
+        padding-block: 3%;
+    }
+    .main__sectionfind {
+        padding-inline: 8%;
+    }
+    .main__h2find {
+        font-size: 2rem;
+    }
+    .main__formfind {
+        display: flex;
+        flex-direction: row;
+    }
+    .main__selectfind {
+        width: 20%;
+        margin-right: 0.5rem;
+    }
+    select:nth-last-of-type(3) {
+        width: 37%;
+        margin-right: 0.8rem;
+    }
+    .main__buttonfind {
+        width: 20%;
+        height: 85%;
+        margin-left: 1rem;
+    }
+    .main__sectionlast {
+        padding-inline: 10%;
+    }
+    .main__divgreen {
+        display: grid;
+        grid-template-columns: 5% 50% 45%;
+    }
+    .main__pgreen {
+        justify-self: left;
+    }
+    .main__divred {
+        display: grid;
+        grid-template-columns: 5% 70% 25%;
+    }
+    .main__cross {
+        justify-self: right;
+    }
+    .main__pred {
+        justify-self: left;
+    }
+    .main__divneed {
+        width: 100%;
+        height: 450px;
+        border-radius: 30px;
+        padding-inline: 25%;
+        .main__buttonneed {
+            margin-top: 2rem;
+            width: 40%;
+        }
+    }
+}
+
 /*prueba*/
 /*prueba*/
 
